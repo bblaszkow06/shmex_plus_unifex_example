@@ -1,21 +1,9 @@
-# ShmexBlogpost
+# Shmex Example
 
-**TODO: Add description**
+An example of Shmex usage with the help of Unifex
 
-## Installation
+Created for [an article on Medium]()
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `shmex_blogpost` to your list of dependencies in `mix.exs`:
+The creation of shm can be found in [c_src/example.c](c_src/example.c)
 
-```elixir
-def deps do
-  [
-    {:shmex_blogpost, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/shmex_blogpost](https://hexdocs.pm/shmex_blogpost).
-
+If you want to learn how to create NIFs using Unifex, check out [guide](https://hexdocs.pm/unifex/creating_unifex_nif.html) in Unifex documentation.
