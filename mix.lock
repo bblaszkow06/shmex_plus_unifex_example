@@ -1,0 +1,7 @@
+%{
+  "bunch": {:hex, :bunch, "0.1.2", "2389a4bcdb62382fbfeed9e19952cc22452dc0c01b4bcac941cce00ef212d7b4", [:mix], [], "hexpm"},
+  "bunch_native": {:hex, :bunch_native, "0.1.1", "9895b2cf5e5c6847af5de80c8d485ea9c69021a21e74c7237ab64e7a225c06c2", [:mix], [{:bundlex, "~> 0.1", [hex: :bundlex, repo: "hexpm", optional: false]}], "hexpm"},
+  "bundlex": {:hex, :bundlex, "0.1.4", "cb3f4dd402fc84f33e5c22fe84a0034c4669e27f305c38f712427eb01d480a63", [:mix], [{:bunch, "~> 0.1.2", [hex: :bunch, repo: "hexpm", optional: false]}], "hexpm"},
+  "shmex": {:hex, :shmex, "0.1.2", "c12c11b7bf315589d7aef4de1030e5d15c72c25a828624daf81d76a50ce894c2", [:mix], [{:bunch, "~> 0.1.2", [hex: :bunch, repo: "hexpm", optional: false]}, {:bunch_native, "~> 0.1.1", [hex: :bunch_native, repo: "hexpm", optional: false]}, {:bundlex, "~> 0.1.3", [hex: :bundlex, repo: "hexpm", optional: false]}], "hexpm"},
+  "unifex": {:hex, :unifex, "0.1.0", "1937dfceba8fe9b9cbc58d1091615e07814c736cc5adf8b159f8e65a9b4468f4", [:mix], [{:bunch, "~> 0.1.2", [hex: :bunch, repo: "hexpm", optional: false]}, {:bundlex, "~> 0.1.3", [hex: :bundlex, repo: "hexpm", optional: false]}, {:shmex, "~> 0.1.2", [hex: :shmex, repo: "hexpm", optional: false]}], "hexpm"},
+}
